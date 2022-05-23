@@ -1,0 +1,100 @@
+body {
+    background-color: rgba(0, 0, 139, 0.418);
+}
+
+
+#playfield {
+    height: 400px;
+    width: 800px;
+    background-color: lime; 
+    background-image: url('../images/backrgound.png');
+}
+
+.player {
+    position: absolute;
+    top: 200px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/teemo-l.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.lemming {
+    position: absolute;
+    top: 200px;
+    left: 720px;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/lemmings.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.ball {
+        position: absolute;
+        height: 25px;
+        width: 25px;
+        left: 50px;
+        background-color: rgb(255, 251, 0);   
+        border-radius: 50%;
+        display: inline-block;     
+}
+
+#skillBar {
+    position: relative;
+    width: 25%;
+    height: 50px;
+}
+
+.skillRed {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 350px;
+    left: 270px;
+
+    background-image: url(../images/fire.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skillBlue {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 350px;
+    left: 330px;
+
+    background-image: url(../images/ice.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skillGold {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 350px;
+    left: 390px;
+
+    background-image: url(../images/wind.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skillGreen {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 350px;
+    left: 450px;
+
+    background-image: url(../images/earth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.selected {
+    border: 2px solid black;
+}
